@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;CurrencyConverter.java&apos; to &apos;Exercicio de Fixação/src/fixacao&apos;&#x0D;&#x0A;- Original project: &apos;Exercicio de Fixação&apos;&#x0D;&#x0A;- Destination element: &apos;Exercicio de Fixação/src/fixacao&apos;&#x0D;&#x0A;- Original element: &apos;aplication.CurrencyConverter.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;fixacao" element1="/src&lt;aplication{CurrencyConverter.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1577484934308" units="1" version="1.0"/>
+</session>

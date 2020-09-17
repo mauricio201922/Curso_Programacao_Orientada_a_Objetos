@@ -1,0 +1,19 @@
+package exibe;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+import conta.ContaBancary;
+
+public class VerificarContaBanco {
+
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		ContaBancary conta = new ContaBancary();
+		
+	}
+
+}

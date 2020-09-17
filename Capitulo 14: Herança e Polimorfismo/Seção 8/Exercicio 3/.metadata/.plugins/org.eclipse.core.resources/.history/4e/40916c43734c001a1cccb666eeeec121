@@ -1,0 +1,43 @@
+package conta;
+
+public class ContaBancary {
+	
+	private int number;
+	private String holder;
+	private double deposita;
+	
+	public ContaBancary(int number, String holder, double deposita) {
+		this.number = number;
+		this.holder = holder;
+		this.deposita = deposita;
+	}
+	
+	public int getNumber() {
+		return number;
+	}
+	
+	public String getHolder() {
+		return holder;
+	}
+	
+	public void setHolder(String holder) {
+		this.holder = holder;
+	}
+	
+	public void setDeposit(double alterDeposit) {
+		this.deposita+=alterDeposit;
+	}
+	
+	public void setSaque(double alterDeposit) {
+		this.deposita-=(alterDeposit-5.00);
+	}
+	
+	public Double valueDeposit() {
+		return deposita;
+	}
+	
+	public Double valueSaque() {
+		return deposita;
+	}
+	
+}

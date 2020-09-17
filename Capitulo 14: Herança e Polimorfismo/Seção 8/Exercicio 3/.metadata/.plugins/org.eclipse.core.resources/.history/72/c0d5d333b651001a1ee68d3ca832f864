@@ -1,0 +1,40 @@
+package entities;
+
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		
+		Integer m = sc.nextInt();
+		Integer n = sc.nextInt();
+		
+		Integer[][] mat = new Integer[m][n];
+		
+		for(int i=0;i<m;i++) {
+			for(int j=0;j<n;j++) {
+				mat[i][j] = sc.nextInt();
+			}
+		}
+		
+		Integer found = sc.nextInt();
+		
+		for(int i=0;i<m;i++) {
+			for(int j=0;j<n;j++) {
+				if(mat[i][j]==found) {
+					System.out.println("Position: " + i + ", " + j);
+					if((j-1)>=0) System.out.println("Left: " + mat[i][j-1]);
+					if((i-1)>=0) System.out.println("Up: " + mat[i-1][j]);
+					if((j+1)>mat[i].length-1) System.out.println("Right: " + mat[i][j+1]);
+					if((i+1)>mat.length-1) System.out.println("Right: " + mat[i+1][j]);
+				}
+			}
+		}
+
+		sc.close();
+				
+	}
+
+}

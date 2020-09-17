@@ -1,0 +1,30 @@
+package program;
+
+import java.util.List;
+import java.util.ArrayList;
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Funcionarios {
+	
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("How many employees will be registered? ");
+		Integer n = sc.nextInt();
+		
+		List<Integer> code = new ArrayList<>();
+		List<String> func = new ArrayList<>();
+		List<Double> sal = new ArrayList<>();
+		
+		for(int i=0; i<n; i++) {
+			
+			
+			
+		}
+		
+	}
+
+}
